@@ -1,0 +1,221 @@
+Fri Jan  5 06:15:59 2024: [PE_464]:_pmi_mmap_tmp: Warning bootstrap barrier failed: num_syncd=3, pes_this_node=4, timeout=180 secs
+Fri Jan  5 06:15:59 2024: [PE_467]:_pmi_mmap_tmp: Warning bootstrap barrier failed: num_syncd=3, pes_this_node=4, timeout=180 secs
+Fri Jan  5 06:15:59 2024: [PE_467]:_pmi_mmap_init:Failed to setup PMI mmap.Fri Jan  5 06:15:59 2024: [PE_467]:globals_init:_pmi_mmap_init returned -1
+MPICH ERROR [Rank 0] [job id unknown] [Fri Jan  5 06:15:59 2024] [nid008600] - Abort(1091855) (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Other MPI error, error stack:
+MPIR_Init_thread(170): 
+MPID_Init(441).......: 
+MPIR_pmi_init(110)...: PMI_Init returned 1
+
+aborting job:
+Fatal error in PMPI_Init_thread: Other MPI error, error stack:
+MPIR_Init_thread(170): 
+MPID_Init(441).......: 
+MPIR_pmi_init(110)...: PMI_Init returned 1
+Fri Jan  5 06:15:59 2024: [PE_466]:_pmi_mmap_tmp: Warning bootstrap barrier failed: num_syncd=3, pes_this_node=4, timeout=180 secs
+Fri Jan  5 06:15:59 2024: [PE_466]:_pmi_mmap_init:Failed to setup PMI mmap.Fri Jan  5 06:15:59 2024: [PE_466]:globals_init:_pmi_mmap_init returned -1
+MPICH ERROR [Rank 0] [job id unknown] [Fri Jan  5 06:15:59 2024] [nid008600] - Abort(1091855) (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Other MPI error, error stack:
+MPIR_Init_thread(170): 
+MPID_Init(441).......: 
+MPIR_pmi_init(110)...: PMI_Init returned 1
+
+aborting job:
+Fatal error in PMPI_Init_thread: Other MPI error, error stack:
+MPIR_Init_thread(170): 
+MPID_Init(441).......: 
+MPIR_pmi_init(110)...: PMI_Init returned 1
+srun: error: nid008600: tasks 466-467: Exited with exit code 255
+srun: Terminating StepId=20019601.0
+slurmstepd: error: *** STEP 20019601.0 ON nid008201 CANCELLED AT 2024-01-05T14:15:59 ***
+Fri Jan  5 06:15:59 2024: [PE_96]:inet_recv:inet_recv: unexpected socket EOF on nid008297 from nid008285: Success
+Fri Jan  5 06:15:59 2024: [PE_92]:inet_recv:inet_recv: unexpected socket EOF on nid008296 from nid008285: Success
+Fri Jan  5 06:15:59 2024: [PE_88]:inet_recv:inet_recv: unexpected socket EOF on nid008293 from nid008285: Success
+Fri Jan  5 06:15:59 2024: [PE_40]:inet_recv:inet_recv: unexpected socket EOF on nid008241 from nid008237: Success
+Fri Jan  5 06:15:59 2024: [PE_380]:inet_recv:inet_recv: unexpected socket EOF on nid008500 from nid008489: Success
+Fri Jan  5 06:15:59 2024: [PE_144]:inet_recv:inet_recv: unexpected socket EOF on nid008321 from nid008316: Success
+Fri Jan  5 06:15:59 2024: [PE_312]:inet_recv:inet_recv: unexpected socket EOF on nid008437 from nid008436: Success
+Fri Jan  5 06:15:59 2024: [PE_316]:inet_recv:inet_recv: unexpected socket EOF on nid008440 from nid008436: Success
+Fri Jan  5 06:15:59 2024: [PE_168]:inet_recv:inet_recv: unexpected socket EOF on nid008349 from nid008348: Success
+Fri Jan  5 06:15:59 2024: [PE_172]:inet_recv:inet_recv: unexpected socket EOF on nid008352 from nid008348: Success
+Fri Jan  5 06:15:59 2024: [PE_468]:inet_recv:inet_recv: recv error on nid008601 from nid008201 (fd=7) Connection reset by peer
+Fri Jan  5 06:15:59 2024: [PE_468]:_pmi_network_barrier:_pmi_inet_recv from target 3 failed pmi errno -1
+Fri Jan  5 06:15:59 2024: [PE_468]:control_nets_join:network_barrier failed
+Fri Jan  5 06:15:59 2024: [PE_324]:inet_recv:inet_recv: recv error on nid008444 from nid008201 (fd=7) Connection reset by peer
+Fri Jan  5 06:15:59 2024: [PE_324]:_pmi_network_barrier:_pmi_inet_recv from target 3 failed pmi errno -1
+Fri Jan  5 06:15:59 2024: [PE_324]:control_nets_join:network_barrier failed
+Fri Jan  5 06:15:59 2024: [PE_152]:inet_recv:inet_recv: unexpected socket EOF on nid008333 from nid008324: Success
+Fri Jan  5 06:15:59 2024: [PE_469]:control_nets_join:_pmi_smp_barrier failed -1
+Fri Jan  5 06:15:59 2024: [PE_327]:control_nets_join:_pmi_smp_barrier failed -1
+Fri Jan  5 06:15:59 2024: [PE_470]:control_nets_join:_pmi_smp_barrier failed -1
+MPICH ERROR [Rank 0] [job id unknown] [Fri Jan  5 06:15:59 2024] [nid008444] - Abort(1091855) (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Other MPI error, error stack:
+MPIR_Init_thread(170): 
+MPID_Init(441).......: 
+MPIR_pmi_init(110)...: PMI_Init returned 1
+
+aborting job:
+Fatal error in PMPI_Init_thread: Other MPI error, error stack:
+MPIR_Init_thread(170): 
+MPID_Init(441).......: 
+MPIR_pmi_init(110)...: PMI_Init returned 1
+Fri Jan  5 06:15:59 2024: [PE_471]:control_nets_join:_pmi_smp_barrier failed -1
+Fri Jan  5 06:15:59 2024: [PE_325]:control_nets_join:_pmi_smp_barrier failed -1
+MPICH ERROR [Rank 0] [job id unknown] [Fri Jan  5 06:15:59 2024] [nid008444] - Abort(1091855) (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Other MPI error, error stack:
+MPIR_Init_thread(170): 
+MPID_Init(441).......: 
+MPIR_pmi_init(110)...: PMI_Init returned 1
+
+aborting job:
+Fatal error in PMPI_Init_thread: Other MPI error, error stack:
+MPIR_Init_thread(170): 
+MPID_Init(441).......: 
+MPIR_pmi_init(110)...: PMI_Init returned 1
+Fri Jan  5 06:15:59 2024: [PE_326]:control_nets_join:_pmi_smp_barrier failed -1
+MPICH ERROR [Rank 0] [job id unknown] [Fri Jan  5 06:15:59 2024] [nid008444] - Abort(1091855) (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Other MPI error, error stack:
+MPIR_Init_thread(170): 
+MPID_Init(441).......: 
+MPIR_pmi_init(110)...: PMI_Init returned 1
+
+aborting job:
+Fatal error in PMPI_Init_thread: Other MPI error, error stack:
+MPIR_Init_thread(170): 
+MPID_Init(441).......: 
+MPIR_pmi_init(110)...: PMI_Init returned 1
+MPICH ERROR [Rank 0] [job id unknown] [Fri Jan  5 06:15:59 2024] [nid008444] - Abort(1091855) (rank 0 in comm 0): Fatal error in PMPI_Init_thread: Other MPI error, error stack:
+MPIR_Init_thread(170): 
+MPID_Init(441).......: 
+MPIR_pmi_init(110)...: PMI_Init returned 1
+
+aborting job:
+Fatal error in PMPI_Init_thread: Other MPI error, error stack:
+MPIR_Init_thread(170): 
+MPID_Init(441).......: 
+MPIR_pmi_init(110)...: PMI_Init returned 1
+srun: error: nid008376: tasks 220-223: Terminated
+srun: error: nid008620: tasks 504-507: Terminated
+srun: error: nid008237: tasks 36-39: Terminated
+srun: error: nid008445: tasks 328-331: Terminated
+srun: error: nid008404: tasks 248-251: Terminated
+srun: error: nid008484: tasks 360-363: Terminated
+srun: error: nid008541: tasks 428-431: Terminated
+srun: error: nid008505: tasks 392-395: Terminated
+srun: error: nid008536: tasks 416-419: Terminated
+srun: error: nid008413: tasks 264-267: Terminated
+srun: error: nid008272: tasks 56-59: Terminated
+srun: error: nid008485: tasks 364-367: Terminated
+srun: error: nid008509: tasks 400-403: Terminated
+srun: error: nid008285: tasks 84-87: Terminated
+srun: error: nid008616: tasks 496-499: Terminated
+srun: error: nid008313: tasks 128-131: Terminated
+srun: error: nid008369: tasks 208-211: Terminated
+srun: error: nid008617: tasks 500-503: Terminated
+srun: error: nid008205: tasks 8-11: Terminated
+srun: error: nid008488: tasks 368-371: Terminated
+srun: error: nid008336: tasks 156-159: Terminated
+srun: error: nid008613: tasks 492-495: Terminated
+srun: error: nid008540: tasks 424-427: Terminated
+srun: error: nid008480: tasks 352-355: Terminated
+srun: error: nid008532: tasks 408-411: Terminated
+srun: error: nid008353: tasks 176-179: Terminated
+srun: error: nid008365: tasks 200-203: Terminated
+srun: error: nid008605: tasks 476-479: Terminated
+srun: error: nid008489: tasks 372-375: Terminated
+srun: error: nid008553: tasks 452-455: Terminated
+srun: error: nid008421: tasks 280-283: Terminated
+srun: error: nid008501: tasks 384-387: Terminated
+srun: error: nid008209: tasks 16-19: Terminated
+srun: error: nid008373: tasks 216-219: Terminated
+srun: error: nid008597: tasks 460-463: Terminated
+srun: error: nid008356: tasks 180-183: Terminated
+srun: error: nid008621: tasks 508-511: Terminated
+srun: error: nid008477: tasks 348-351: Terminated
+srun: error: nid008269: tasks 52-55: Terminated
+srun: error: nid008548: tasks 440-443: Terminated
+srun: error: nid008316: tasks 132-135: Terminated
+srun: error: nid008300: tasks 100-103: Terminated
+srun: error: nid008308: tasks 116-119: Terminated
+srun: error: nid008284: tasks 80-83: Terminated
+srun: error: nid008449: tasks 336-339: Terminated
+srun: error: nid008304: tasks 108-111: Terminated
+srun: error: nid008277: tasks 68-71: Terminated
+srun: error: nid008377: tasks 224-227: Terminated
+srun: error: nid008405: tasks 252-255: Terminated
+srun: error: nid008312: tasks 124-127: Terminated
+srun: error: nid008549: tasks 444-447: Terminated
+srun: error: nid008609: tasks 484-487: Terminated
+srun: error: nid008228: tasks 32-35: Terminated
+srun: error: nid008201: tasks 0-3: Terminated
+srun: error: nid008408: tasks 256-259: Terminated
+srun: error: nid008500: tasks 380-383: Terminated
+srun: error: nid008349: tasks 168-171: Terminated
+srun: error: nid008281: tasks 76-79: Terminated
+srun: error: nid008372: tasks 212-215: Terminated
+srun: error: nid008388: tasks 240-243: Terminated
+srun: error: nid008241: tasks 40-43: Terminated
+srun: error: nid008424: tasks 284-287: Terminated
+srun: error: nid008361: tasks 192-195: Terminated
+srun: error: nid008364: tasks 196-199: Terminated
+srun: error: nid008529: tasks 404-407: Terminated
+srun: error: nid008608: tasks 480-483: Terminated
+srun: error: nid008473: tasks 340-343: Terminated
+srun: error: nid008348: tasks 164-167: Terminated
+srun: error: nid008317: tasks 136-139: Terminated
+srun: error: nid008441: tasks 320-323: Terminated
+srun: error: nid008601: tasks 468-471: Terminated
+srun: error: nid008381: tasks 232-235: Terminated
+srun: error: nid008417: tasks 272-275: Terminated
+srun: error: nid008321: tasks 144-147: Terminated
+srun: error: nid008225: tasks 28-31: Terminated
+srun: error: nid008249: tasks 44-47: Terminated
+srun: error: nid008380: tasks 228-231: Terminated
+srun: error: nid008305: tasks 112-115: Terminated
+srun: error: nid008296: tasks 92-95: Terminated
+srun: error: nid008309: tasks 120-123: Terminated
+srun: error: nid008352: tasks 172-175: Terminated
+srun: error: nid008612: tasks 488-491: Terminated
+srun: error: nid008432: tasks 300-303: Terminated
+srun: error: nid008357: tasks 184-187: Terminated
+srun: error: nid008333: tasks 152-155: Terminated
+srun: error: nid008544: tasks 432-435: Terminated
+srun: error: nid008504: tasks 388-391: Terminated
+srun: error: nid008436: tasks 308-311: Terminated
+srun: error: nid008425: tasks 288-291: Terminated
+srun: error: nid008324: tasks 148-151: Terminated
+srun: error: nid008384: tasks 236-239: Terminated
+srun: error: nid008224: tasks 24-27: Terminated
+srun: error: nid008545: tasks 436-439: Terminated
+srun: error: nid008301: tasks 104-107: Terminated
+srun: error: nid008252: tasks 48-51: Terminated
+srun: error: nid008440: tasks 316-319: Terminated
+srun: error: nid008476: tasks 344-347: Terminated
+srun: error: nid008368: tasks 204-207: Terminated
+srun: error: nid008345: tasks 160-163: Terminated
+srun: error: nid008448: tasks 332-335: Terminated
+srun: error: nid008437: tasks 312-315: Terminated
+srun: error: nid008204: tasks 4-7: Terminated
+srun: error: nid008481: tasks 356-359: Terminated
+srun: error: nid008420: tasks 276-279: Terminated
+srun: error: nid008496: tasks 376-379: Terminated
+srun: error: nid008429: tasks 296-299: Terminated
+srun: error: nid008444: tasks 324-326: Terminated
+srun: error: nid008293: tasks 88-91: Terminated
+srun: error: nid008412: tasks 260-263: Terminated
+srun: error: nid008273: tasks 60-63: Terminated
+srun: error: nid008416: tasks 268-271: Terminated
+srun: error: nid008221: tasks 20-23: Terminated
+srun: error: nid008208: tasks 12-15: Terminated
+srun: error: nid008552: tasks 448-451: Terminated
+srun: error: nid008320: tasks 140-143: Terminated
+srun: error: nid008596: tasks 456-459: Terminated
+srun: error: nid008604: tasks 472-475: Terminated
+srun: error: nid008360: tasks 188-191: Terminated
+srun: error: nid008297: tasks 96-99: Terminated
+srun: error: nid008392: tasks 244-247: Terminated
+srun: error: nid008444: task 327: Exited with exit code 255
+srun: error: nid008433: tasks 304-307: Terminated
+srun: error: nid008508: tasks 396-399: Terminated
+srun: error: nid008428: tasks 292-295: Terminated
+srun: error: nid008280: tasks 72-75: Terminated
+srun: error: nid008533: tasks 412-415: Terminated
+srun: error: nid008276: tasks 64-67: Terminated
+srun: error: nid008537: tasks 420-423: Terminated
+srun: error: nid008600: tasks 464-465: Terminated
+srun: Force Terminated StepId=20019601.0

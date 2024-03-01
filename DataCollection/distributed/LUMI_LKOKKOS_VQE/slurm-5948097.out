@@ -1,0 +1,69 @@
+
+Lmod is automatically replacing "PrgEnv-cray/8.4.0" with "PrgEnv-gnu/8.4.0".
+
+
+Lmod is automatically replacing "cce/16.0.1" with "gcc/11.2.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-mpich/8.1.27
+
+
+Lmod is automatically replacing "PrgEnv-cray-amd/8.4.0" with
+"PrgEnv-cray/8.4.0".
+
+
+Lmod is automatically replacing "gcc/11.2.0" with "cce/16.0.1".
+
+
+Lmod is automatically replacing "PrgEnv-gnu/8.4.0" with
+"PrgEnv-cray-amd/8.4.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-mpich/8.1.27
+
+2
+0
+1
+7
+4
+3
+6
+5
+1
+2
+3
+0
+6
+4
+7
+5
+6
+2
+0
+1
+5
+3
+4
+7
+0
+1
+2
+6
+7
+5
+3
+4
+qubits=28,num_terms=8919,procs=32,,Step=0,Time_grad=2410.9625001391396
+qubits=28,num_terms=8919,procs=32,,Step=1,Time_grad=2368.7483755238354
+qubits=28,num_terms=8919,procs=32,,Step=2,Time_grad=2711.640856202692
+qubits=28,num_terms=8919,procs=32,,Step=3,Time_grad=2664.8521126834676
+qubits=28,num_terms=8919,procs=32,,Step=4,Time_grad=2783.3437565807253
+qubits=28,num_terms=8919,procs=32,,Step=5,Time_grad=2379.4648080021143
+qubits=28,num_terms=8919,procs=32,,Step=6,Time_grad=2380.255602712743
+qubits=28,num_terms=8919,procs=32,,Step=7,Time_grad=2376.119038485922
+qubits=28,num_terms=8919,procs=32,,Step=8,Time_grad=2374.853575114161
+qubits=28,num_terms=8919,procs=32,,Step=9,Time_grad=2713.354853471741
+Energies=[array(-64.65802704), array(-67.27855081), array(-69.49508568), array(-71.06337096), array(-72.00536815), array(-72.56929191), array(-72.93940562), array(-73.20750035), array(-73.41735027), array(-73.59079902), array(-73.73945174)],Time_fwd=2669.594713302329
+27908 seconds elapsed.

@@ -1,0 +1,338 @@
+Head node=nid008309::[128.55.82.138]
+IP Head: 128.55.82.138:6379
+Starting HEAD at nid008309
+Starting WORKER 1 at nid008312 connecting to 128.55.82.138:6379
+Starting WORKER 2 at nid008313 connecting to 128.55.82.138:6379
+2024-02-19 05:48:33,256	INFO scripts.py:926 -- Local node IP: 128.55.82.139
+2024-02-19 05:48:35,520	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:48:35,520	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:48:35,520	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:48:35,520	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:48:35,520	INFO scripts.py:944 --   ray stop
+2024-02-19 05:48:35,520	INFO scripts.py:952 -- --block
+2024-02-19 05:48:35,520	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:48:35,520	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+2024-02-19 05:48:36,070	INFO scripts.py:926 -- Local node IP: 128.55.82.140
+2024-02-19 05:48:36,205	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:48:36,205	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:48:36,205	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:48:36,205	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:48:36,205	INFO scripts.py:944 --   ray stop
+2024-02-19 05:48:36,205	INFO scripts.py:952 -- --block
+2024-02-19 05:48:36,205	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:48:36,205	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+2024-02-19 05:48:33,010	INFO usage_lib.py:449 -- Usage stats collection is enabled by default without user confirmation because this terminal is detected to be non-interactive. To disable this, add `--disable-usage-stats` to the command that starts the cluster, or run the following command: `ray disable-usage-stats` before starting the cluster. See https://docs.ray.io/en/master/cluster/usage-stats.html for more details.
+2024-02-19 05:48:33,010	INFO scripts.py:744 -- Local node IP: 128.55.82.138
+2024-02-19 05:48:36,594	SUCC scripts.py:781 -- --------------------
+2024-02-19 05:48:36,594	SUCC scripts.py:782 -- Ray runtime started.
+2024-02-19 05:48:36,594	SUCC scripts.py:783 -- --------------------
+2024-02-19 05:48:36,594	INFO scripts.py:785 -- Next steps
+2024-02-19 05:48:36,594	INFO scripts.py:788 -- To add another node to this Ray cluster, run
+2024-02-19 05:48:36,594	INFO scripts.py:791 --   ray start --address='128.55.82.138:6379'
+2024-02-19 05:48:36,594	INFO scripts.py:800 -- To connect to this Ray cluster:
+2024-02-19 05:48:36,594	INFO scripts.py:802 -- import ray
+2024-02-19 05:48:36,594	INFO scripts.py:803 -- ray.init(_node_ip_address='128.55.82.138')
+2024-02-19 05:48:36,594	INFO scripts.py:834 -- To terminate the Ray runtime, run
+2024-02-19 05:48:36,594	INFO scripts.py:835 --   ray stop
+2024-02-19 05:48:36,594	INFO scripts.py:838 -- To view the status of the cluster, use
+2024-02-19 05:48:36,594	INFO scripts.py:839 --   ray status
+2024-02-19 05:48:36,595	INFO scripts.py:952 -- --block
+2024-02-19 05:48:36,595	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:48:36,595	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 3 at nid008316 connecting to 128.55.82.138:6379
+2024-02-19 05:48:38,831	INFO scripts.py:926 -- Local node IP: 128.55.82.141
+2024-02-19 05:48:38,961	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:48:38,961	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:48:38,961	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:48:38,961	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:48:38,961	INFO scripts.py:944 --   ray stop
+2024-02-19 05:48:38,961	INFO scripts.py:952 -- --block
+2024-02-19 05:48:38,961	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:48:38,961	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 4 at nid008317 connecting to 128.55.82.138:6379
+2024-02-19 05:48:42,089	INFO scripts.py:926 -- Local node IP: 128.55.82.142
+2024-02-19 05:48:42,257	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:48:42,257	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:48:42,257	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:48:42,257	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:48:42,257	INFO scripts.py:944 --   ray stop
+2024-02-19 05:48:42,257	INFO scripts.py:952 -- --block
+2024-02-19 05:48:42,257	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:48:42,257	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 5 at nid008320 connecting to 128.55.82.138:6379
+2024-02-19 05:48:45,300	INFO scripts.py:926 -- Local node IP: 128.55.82.143
+2024-02-19 05:48:45,430	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:48:45,430	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:48:45,430	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:48:45,430	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:48:45,430	INFO scripts.py:944 --   ray stop
+2024-02-19 05:48:45,430	INFO scripts.py:952 -- --block
+2024-02-19 05:48:45,430	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:48:45,430	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 6 at nid008321 connecting to 128.55.82.138:6379
+2024-02-19 05:48:48,632	INFO scripts.py:926 -- Local node IP: 128.55.82.144
+2024-02-19 05:48:48,770	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:48:48,770	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:48:48,770	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:48:48,770	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:48:48,770	INFO scripts.py:944 --   ray stop
+2024-02-19 05:48:48,770	INFO scripts.py:952 -- --block
+2024-02-19 05:48:48,770	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:48:48,770	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 7 at nid008324 connecting to 128.55.82.138:6379
+2024-02-19 05:48:50,994	INFO scripts.py:926 -- Local node IP: 128.55.82.145
+2024-02-19 05:48:51,166	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:48:51,166	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:48:51,166	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:48:51,166	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:48:51,166	INFO scripts.py:944 --   ray stop
+2024-02-19 05:48:51,166	INFO scripts.py:952 -- --block
+2024-02-19 05:48:51,166	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:48:51,166	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 8 at nid008325 connecting to 128.55.82.138:6379
+2024-02-19 05:48:53,984	INFO scripts.py:926 -- Local node IP: 128.55.82.146
+2024-02-19 05:48:54,152	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:48:54,152	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:48:54,152	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:48:54,152	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:48:54,152	INFO scripts.py:944 --   ray stop
+2024-02-19 05:48:54,152	INFO scripts.py:952 -- --block
+2024-02-19 05:48:54,152	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:48:54,152	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 9 at nid008328 connecting to 128.55.82.138:6379
+Starting WORKER 10 at nid008329 connecting to 128.55.82.138:6379
+2024-02-19 05:49:00,440	INFO scripts.py:926 -- Local node IP: 128.55.82.147
+2024-02-19 05:49:00,570	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:49:00,570	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:49:00,570	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:49:00,570	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:49:00,570	INFO scripts.py:944 --   ray stop
+2024-02-19 05:49:00,570	INFO scripts.py:952 -- --block
+2024-02-19 05:49:00,570	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:49:00,570	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 11 at nid008332 connecting to 128.55.82.138:6379
+2024-02-19 05:49:00,882	INFO scripts.py:926 -- Local node IP: 128.55.82.148
+2024-02-19 05:49:01,017	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:49:01,017	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:49:01,017	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:49:01,017	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:49:01,017	INFO scripts.py:944 --   ray stop
+2024-02-19 05:49:01,017	INFO scripts.py:952 -- --block
+2024-02-19 05:49:01,017	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:49:01,017	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+2024-02-19 05:49:02,869	INFO scripts.py:926 -- Local node IP: 128.55.82.149
+2024-02-19 05:49:03,000	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:49:03,000	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:49:03,000	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:49:03,000	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:49:03,000	INFO scripts.py:944 --   ray stop
+2024-02-19 05:49:03,000	INFO scripts.py:952 -- --block
+2024-02-19 05:49:03,000	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:49:03,000	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 12 at nid008333 connecting to 128.55.82.138:6379
+2024-02-19 05:49:05,978	INFO scripts.py:926 -- Local node IP: 128.55.82.150
+2024-02-19 05:49:06,113	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:49:06,113	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:49:06,113	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:49:06,113	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:49:06,113	INFO scripts.py:944 --   ray stop
+2024-02-19 05:49:06,114	INFO scripts.py:952 -- --block
+2024-02-19 05:49:06,114	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:49:06,114	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 13 at nid008336 connecting to 128.55.82.138:6379
+2024-02-19 05:49:08,860	INFO scripts.py:926 -- Local node IP: 128.55.82.151
+2024-02-19 05:49:08,992	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:49:08,992	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:49:08,992	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:49:08,992	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:49:08,992	INFO scripts.py:944 --   ray stop
+2024-02-19 05:49:08,992	INFO scripts.py:952 -- --block
+2024-02-19 05:49:08,992	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:49:08,992	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 14 at nid008337 connecting to 128.55.82.138:6379
+2024-02-19 05:49:11,981	INFO scripts.py:926 -- Local node IP: 128.55.82.152
+2024-02-19 05:49:12,122	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:49:12,122	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:49:12,122	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:49:12,122	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:49:12,122	INFO scripts.py:944 --   ray stop
+2024-02-19 05:49:12,122	INFO scripts.py:952 -- --block
+2024-02-19 05:49:12,122	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:49:12,122	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 15 at nid008340 connecting to 128.55.82.138:6379
+2024-02-19 05:49:15,076	INFO scripts.py:926 -- Local node IP: 128.55.82.153
+2024-02-19 05:49:15,211	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:49:15,211	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:49:15,211	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:49:15,211	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:49:15,211	INFO scripts.py:944 --   ray stop
+2024-02-19 05:49:15,211	INFO scripts.py:952 -- --block
+2024-02-19 05:49:15,211	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:49:15,211	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 16 at nid008345 connecting to 128.55.82.138:6379
+2024-02-19 05:49:18,347	INFO scripts.py:926 -- Local node IP: 128.55.82.156
+2024-02-19 05:49:18,481	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:49:18,481	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:49:18,481	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:49:18,481	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:49:18,481	INFO scripts.py:944 --   ray stop
+2024-02-19 05:49:18,481	INFO scripts.py:952 -- --block
+2024-02-19 05:49:18,481	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:49:18,482	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 17 at nid008348 connecting to 128.55.82.138:6379
+2024-02-19 05:49:21,017	INFO scripts.py:926 -- Local node IP: 128.55.82.157
+2024-02-19 05:49:21,153	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:49:21,153	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:49:21,153	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:49:21,153	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:49:21,153	INFO scripts.py:944 --   ray stop
+2024-02-19 05:49:21,153	INFO scripts.py:952 -- --block
+2024-02-19 05:49:21,153	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:49:21,153	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 18 at nid008349 connecting to 128.55.82.138:6379
+Starting WORKER 19 at nid008352 connecting to 128.55.82.138:6379
+2024-02-19 05:49:27,409	INFO scripts.py:926 -- Local node IP: 128.55.82.159
+2024-02-19 05:49:27,544	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:49:27,544	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:49:27,544	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:49:27,544	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:49:27,544	INFO scripts.py:944 --   ray stop
+2024-02-19 05:49:27,544	INFO scripts.py:952 -- --block
+2024-02-19 05:49:27,544	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:49:27,544	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 20 at nid008353 connecting to 128.55.82.138:6379
+2024-02-19 05:49:29,014	INFO scripts.py:926 -- Local node IP: 128.55.82.158
+2024-02-19 05:49:29,157	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:49:29,157	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:49:29,157	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:49:29,157	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:49:29,157	INFO scripts.py:944 --   ray stop
+2024-02-19 05:49:29,157	INFO scripts.py:952 -- --block
+2024-02-19 05:49:29,157	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:49:29,157	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 21 at nid008356 connecting to 128.55.82.138:6379
+2024-02-19 05:49:31,758	INFO scripts.py:926 -- Local node IP: 128.55.82.160
+2024-02-19 05:49:31,892	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:49:31,892	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:49:31,892	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:49:31,892	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:49:31,892	INFO scripts.py:944 --   ray stop
+2024-02-19 05:49:31,892	INFO scripts.py:952 -- --block
+2024-02-19 05:49:31,892	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:49:31,892	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+2024-02-19 05:49:32,849	INFO scripts.py:926 -- Local node IP: 128.55.82.161
+2024-02-19 05:49:33,005	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:49:33,006	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:49:33,006	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:49:33,006	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:49:33,006	INFO scripts.py:944 --   ray stop
+2024-02-19 05:49:33,006	INFO scripts.py:952 -- --block
+2024-02-19 05:49:33,006	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:49:33,006	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 22 at nid008357 connecting to 128.55.82.138:6379
+2024-02-19 05:49:35,927	INFO scripts.py:926 -- Local node IP: 128.55.82.162
+2024-02-19 05:49:36,068	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:49:36,068	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:49:36,068	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:49:36,068	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:49:36,068	INFO scripts.py:944 --   ray stop
+2024-02-19 05:49:36,068	INFO scripts.py:952 -- --block
+2024-02-19 05:49:36,068	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:49:36,068	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 23 at nid008360 connecting to 128.55.82.138:6379
+2024-02-19 05:49:38,830	INFO scripts.py:926 -- Local node IP: 128.55.82.163
+2024-02-19 05:49:38,965	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:49:38,965	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:49:38,965	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:49:38,965	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:49:38,965	INFO scripts.py:944 --   ray stop
+2024-02-19 05:49:38,965	INFO scripts.py:952 -- --block
+2024-02-19 05:49:38,965	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:49:38,965	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 24 at nid008361 connecting to 128.55.82.138:6379
+2024-02-19 05:49:42,280	INFO scripts.py:926 -- Local node IP: 128.55.82.164
+2024-02-19 05:49:42,415	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:49:42,415	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:49:42,415	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:49:42,415	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:49:42,415	INFO scripts.py:944 --   ray stop
+2024-02-19 05:49:42,415	INFO scripts.py:952 -- --block
+2024-02-19 05:49:42,415	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:49:42,415	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 25 at nid008364 connecting to 128.55.82.138:6379
+2024-02-19 05:49:44,886	INFO scripts.py:926 -- Local node IP: 128.55.82.165
+2024-02-19 05:49:45,028	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:49:45,028	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:49:45,028	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:49:45,028	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:49:45,028	INFO scripts.py:944 --   ray stop
+2024-02-19 05:49:45,029	INFO scripts.py:952 -- --block
+2024-02-19 05:49:45,029	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:49:45,029	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 26 at nid008365 connecting to 128.55.82.138:6379
+2024-02-19 05:49:48,055	INFO scripts.py:926 -- Local node IP: 128.55.82.166
+2024-02-19 05:49:48,188	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:49:48,188	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:49:48,188	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:49:48,188	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:49:48,188	INFO scripts.py:944 --   ray stop
+2024-02-19 05:49:48,189	INFO scripts.py:952 -- --block
+2024-02-19 05:49:48,189	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:49:48,189	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 27 at nid008368 connecting to 128.55.82.138:6379
+2024-02-19 05:49:51,035	INFO scripts.py:926 -- Local node IP: 128.55.82.167
+2024-02-19 05:49:51,199	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:49:51,199	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:49:51,199	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:49:51,199	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:49:51,199	INFO scripts.py:944 --   ray stop
+2024-02-19 05:49:51,199	INFO scripts.py:952 -- --block
+2024-02-19 05:49:51,199	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:49:51,199	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 28 at nid008369 connecting to 128.55.82.138:6379
+2024-02-19 05:49:54,032	INFO scripts.py:926 -- Local node IP: 128.55.82.168
+2024-02-19 05:49:54,168	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:49:54,168	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:49:54,168	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:49:54,168	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:49:54,168	INFO scripts.py:944 --   ray stop
+2024-02-19 05:49:54,168	INFO scripts.py:952 -- --block
+2024-02-19 05:49:54,168	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:49:54,168	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 29 at nid008372 connecting to 128.55.82.138:6379
+2024-02-19 05:49:57,443	INFO scripts.py:926 -- Local node IP: 128.55.82.169
+2024-02-19 05:49:57,577	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:49:57,577	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:49:57,577	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:49:57,577	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:49:57,577	INFO scripts.py:944 --   ray stop
+2024-02-19 05:49:57,577	INFO scripts.py:952 -- --block
+2024-02-19 05:49:57,577	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:49:57,577	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 30 at nid008373 connecting to 128.55.82.138:6379
+2024-02-19 05:50:00,076	INFO scripts.py:926 -- Local node IP: 128.55.82.170
+2024-02-19 05:50:00,238	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:50:00,238	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:50:00,238	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:50:00,238	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:50:00,238	INFO scripts.py:944 --   ray stop
+2024-02-19 05:50:00,238	INFO scripts.py:952 -- --block
+2024-02-19 05:50:00,238	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:50:00,238	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+Starting WORKER 31 at nid008376 connecting to 128.55.82.138:6379
+2024-02-19 05:50:03,683	INFO scripts.py:926 -- Local node IP: 128.55.82.171
+2024-02-19 05:50:03,837	SUCC scripts.py:939 -- --------------------
+2024-02-19 05:50:03,838	SUCC scripts.py:940 -- Ray runtime started.
+2024-02-19 05:50:03,838	SUCC scripts.py:941 -- --------------------
+2024-02-19 05:50:03,838	INFO scripts.py:943 -- To terminate the Ray runtime, run
+2024-02-19 05:50:03,838	INFO scripts.py:944 --   ray stop
+2024-02-19 05:50:03,838	INFO scripts.py:952 -- --block
+2024-02-19 05:50:03,838	INFO scripts.py:953 -- This command will now block forever until terminated by a signal.
+2024-02-19 05:50:03,838	INFO scripts.py:956 -- Running subprocesses are monitored and a message will be printed if any of them terminate unexpectedly. Subprocesses exit with SIGTERM will be treated as graceful, thus NOT reported.
+clusters=3,cluster_nodes=25,vertex_sep=2,layers=1
+Original_circuit:=<QuantumTape: wires=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78], params=1453>, Max_wires:=79, num. cut circuits:=45711, cut time:=72.10412239099969
+Nodes in the Ray cluster:=[{'NodeID': 'c4b8a91392098c9f3eb2a6afd0a6ced22f6e762c31bdf479be87372a', 'Alive': True, 'NodeManagerAddress': '128.55.82.164', 'NodeManagerHostname': 'nid008361', 'NodeManagerPort': 37759, 'ObjectManagerPort': 44235, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 58651, 'NodeName': '128.55.82.164', 'RuntimeEnvAgentPort': 62304, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'GPU': 4.0, 'node:128.55.82.164': 1.0, 'memory': 179718438503.0, 'object_store_memory': 77022187929.0, 'CPU': 4.0}, 'Labels': {'ray.io/node_id': 'c4b8a91392098c9f3eb2a6afd0a6ced22f6e762c31bdf479be87372a'}}, {'NodeID': 'd70ac8df528c46d7b4f0f4a601bd27d3544533edae4fe8c648d2a01d', 'Alive': True, 'NodeManagerAddress': '128.55.82.153', 'NodeManagerHostname': 'nid008340', 'NodeManagerPort': 36901, 'ObjectManagerPort': 43203, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 56498, 'NodeName': '128.55.82.153', 'RuntimeEnvAgentPort': 49907, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'GPU': 4.0, 'memory': 179625438004.0, 'object_store_memory': 76982330572.0, 'node:128.55.82.153': 1.0, 'CPU': 4.0}, 'Labels': {'ray.io/node_id': 'd70ac8df528c46d7b4f0f4a601bd27d3544533edae4fe8c648d2a01d'}}, {'NodeID': 'b22b30e5308222334633c1fe189c89a333339b4e877b6940f57d8489', 'Alive': True, 'NodeManagerAddress': '128.55.82.149', 'NodeManagerHostname': 'nid008332', 'NodeManagerPort': 34481, 'ObjectManagerPort': 36751, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 50762, 'NodeName': '128.55.82.149', 'RuntimeEnvAgentPort': 61596, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'GPU': 4.0, 'memory': 180424466432.0, 'object_store_memory': 77324771328.0, 'CPU': 4.0, 'node:128.55.82.149': 1.0}, 'Labels': {'ray.io/node_id': 'b22b30e5308222334633c1fe189c89a333339b4e877b6940f57d8489'}}, {'NodeID': '38436f9ebf1bcb12a837a582897c48faa31958798dd02d84a0ba328d', 'Alive': True, 'NodeManagerAddress': '128.55.82.163', 'NodeManagerHostname': 'nid008360', 'NodeManagerPort': 42583, 'ObjectManagerPort': 38091, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 55440, 'NodeName': '128.55.82.163', 'RuntimeEnvAgentPort': 45026, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'GPU': 4.0, 'node:128.55.82.163': 1.0, 'memory': 179847935591.0, 'object_store_memory': 77077686681.0, 'CPU': 4.0}, 'Labels': {'ray.io/node_id': '38436f9ebf1bcb12a837a582897c48faa31958798dd02d84a0ba328d'}}, {'NodeID': '8a92826f2cd09cfa3be43f64f06539151dbfe9adbcc005a05fcf6bde', 'Alive': True, 'NodeManagerAddress': '128.55.82.152', 'NodeManagerHostname': 'nid008337', 'NodeManagerPort': 44089, 'ObjectManagerPort': 44753, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 57182, 'NodeName': '128.55.82.152', 'RuntimeEnvAgentPort': 56171, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'GPU': 4.0, 'memory': 179839153357.0, 'node:128.55.82.152': 1.0, 'object_store_memory': 77073922867.0, 'CPU': 4.0}, 'Labels': {'ray.io/node_id': '8a92826f2cd09cfa3be43f64f06539151dbfe9adbcc005a05fcf6bde'}}, {'NodeID': 'ca3e424be1476a458d679b1c250dc27828c82317a510f7d6ba4aa856', 'Alive': True, 'NodeManagerAddress': '128.55.82.150', 'NodeManagerHostname': 'nid008333', 'NodeManagerPort': 41859, 'ObjectManagerPort': 39389, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 62271, 'NodeName': '128.55.82.150', 'RuntimeEnvAgentPort': 56651, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'node:128.55.82.150': 1.0, 'GPU': 4.0, 'memory': 179832168858.0, 'object_store_memory': 77070929510.0, 'CPU': 4.0}, 'Labels': {'ray.io/node_id': 'ca3e424be1476a458d679b1c250dc27828c82317a510f7d6ba4aa856'}}, {'NodeID': 'a6288d8c3cfeda43c4494317d26541bc153568b2e79173ca70fb65b2', 'Alive': True, 'NodeManagerAddress': '128.55.82.161', 'NodeManagerHostname': 'nid008356', 'NodeManagerPort': 36627, 'ObjectManagerPort': 35731, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 58717, 'NodeName': '128.55.82.161', 'RuntimeEnvAgentPort': 60832, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'GPU': 4.0, 'memory': 180105398682.0, 'node:128.55.82.161': 1.0, 'object_store_memory': 77188028006.0, 'CPU': 4.0}, 'Labels': {'ray.io/node_id': 'a6288d8c3cfeda43c4494317d26541bc153568b2e79173ca70fb65b2'}}, {'NodeID': '569d97160a8ba36f0af79a5f62b35006568915b66500d282b152e405', 'Alive': True, 'NodeManagerAddress': '128.55.82.151', 'NodeManagerHostname': 'nid008336', 'NodeManagerPort': 42875, 'ObjectManagerPort': 34419, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 50525, 'NodeName': '128.55.82.151', 'RuntimeEnvAgentPort': 60191, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'GPU': 4.0, 'node:128.55.82.151': 1.0, 'memory': 180577569178.0, 'object_store_memory': 77390386790.0, 'CPU': 4.0}, 'Labels': {'ray.io/node_id': '569d97160a8ba36f0af79a5f62b35006568915b66500d282b152e405'}}, {'NodeID': 'd0b77f65732b7654d6c93333159dc2ea7d0eb8e9cfac7f54c7113966', 'Alive': True, 'NodeManagerAddress': '128.55.82.160', 'NodeManagerHostname': 'nid008353', 'NodeManagerPort': 42171, 'ObjectManagerPort': 39917, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 49603, 'NodeName': '128.55.82.160', 'RuntimeEnvAgentPort': 59575, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'GPU': 4.0, 'memory': 179844225434.0, 'CPU': 4.0, 'object_store_memory': 77076096614.0, 'node:128.55.82.160': 1.0}, 'Labels': {'ray.io/node_id': 'd0b77f65732b7654d6c93333159dc2ea7d0eb8e9cfac7f54c7113966'}}, {'NodeID': 'b5d52aa9a0b8f4509947f6084deeeb2d3359d3c3711588e37f370e7b', 'Alive': True, 'NodeManagerAddress': '128.55.82.167', 'NodeManagerHostname': 'nid008368', 'NodeManagerPort': 44963, 'ObjectManagerPort': 34569, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 56934, 'NodeName': '128.55.82.167', 'RuntimeEnvAgentPort': 48967, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'GPU': 4.0, 'node:128.55.82.167': 1.0, 'memory': 178762164224.0, 'object_store_memory': 76612356096.0, 'CPU': 4.0}, 'Labels': {'ray.io/node_id': 'b5d52aa9a0b8f4509947f6084deeeb2d3359d3c3711588e37f370e7b'}}, {'NodeID': '2e2d5f26cd3ee0beb9f8fd770f6f25e06e4a0dd787b28abca7d56c86', 'Alive': True, 'NodeManagerAddress': '128.55.82.146', 'NodeManagerHostname': 'nid008325', 'NodeManagerPort': 38709, 'ObjectManagerPort': 36733, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 45134, 'NodeName': '128.55.82.146', 'RuntimeEnvAgentPort': 62883, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'GPU': 4.0, 'memory': 179984374170.0, 'node:128.55.82.146': 1.0, 'object_store_memory': 77136160358.0, 'CPU': 4.0}, 'Labels': {'ray.io/node_id': '2e2d5f26cd3ee0beb9f8fd770f6f25e06e4a0dd787b28abca7d56c86'}}, {'NodeID': 'dbf422661a4e5bd8108486f5f139ed0e75a8ecbc26a1c696163c7c3a', 'Alive': True, 'NodeManagerAddress': '128.55.82.141', 'NodeManagerHostname': 'nid008316', 'NodeManagerPort': 34309, 'ObjectManagerPort': 42223, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 59860, 'NodeName': '128.55.82.141', 'RuntimeEnvAgentPort': 54529, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'GPU': 4.0, 'memory': 179663279309.0, 'node:128.55.82.141': 1.0, 'object_store_memory': 76998548275.0, 'CPU': 4.0}, 'Labels': {'ray.io/node_id': 'dbf422661a4e5bd8108486f5f139ed0e75a8ecbc26a1c696163c7c3a'}}, {'NodeID': '47565b0ad8c41579604d46db72e66f7b7eabd728901449d20f0a258d', 'Alive': True, 'NodeManagerAddress': '128.55.82.156', 'NodeManagerHostname': 'nid008345', 'NodeManagerPort': 35491, 'ObjectManagerPort': 42765, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 56007, 'NodeName': '128.55.82.156', 'RuntimeEnvAgentPort': 51000, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'GPU': 4.0, 'object_store_memory': 77032874803.0, 'CPU': 4.0, 'memory': 179743374541.0, 'node:128.55.82.156': 1.0}, 'Labels': {'ray.io/node_id': '47565b0ad8c41579604d46db72e66f7b7eabd728901449d20f0a258d'}}, {'NodeID': 'd8524f9511daa666ac9e365e76e6498d7b6ff44ec0f16e75b08178da', 'Alive': True, 'NodeManagerAddress': '128.55.82.165', 'NodeManagerHostname': 'nid008364', 'NodeManagerPort': 40887, 'ObjectManagerPort': 36299, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 50440, 'NodeName': '128.55.82.165', 'RuntimeEnvAgentPort': 58586, 'alive': True, 'Resources': {'GPU': 4.0, 'accelerator_type:A100': 1.0, 'node:128.55.82.165': 1.0, 'memory': 179708698624.0, 'object_store_memory': 77018013696.0, 'CPU': 4.0}, 'Labels': {'ray.io/node_id': 'd8524f9511daa666ac9e365e76e6498d7b6ff44ec0f16e75b08178da'}}, {'NodeID': 'a683844e4e357c540627c648f0252e9f589503a89ae54542df98202e', 'Alive': True, 'NodeManagerAddress': '128.55.82.144', 'NodeManagerHostname': 'nid008321', 'NodeManagerPort': 34597, 'ObjectManagerPort': 46337, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 50949, 'NodeName': '128.55.82.144', 'RuntimeEnvAgentPort': 43737, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'node:128.55.82.144': 1.0, 'GPU': 4.0, 'memory': 179284745831.0, 'object_store_memory': 76836319641.0, 'CPU': 4.0}, 'Labels': {'ray.io/node_id': 'a683844e4e357c540627c648f0252e9f589503a89ae54542df98202e'}}, {'NodeID': 'afe5764a67d8e6885346b8f3bde1da292c2710e73c52cd0c2fe37f9b', 'Alive': True, 'NodeManagerAddress': '128.55.82.159', 'NodeManagerHostname': 'nid008352', 'NodeManagerPort': 42437, 'ObjectManagerPort': 42953, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 61376, 'NodeName': '128.55.82.159', 'RuntimeEnvAgentPort': 62654, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'memory': 179568876749.0, 'GPU': 4.0, 'node:128.55.82.159': 1.0, 'object_store_memory': 76958090035.0, 'CPU': 4.0}, 'Labels': {'ray.io/node_id': 'afe5764a67d8e6885346b8f3bde1da292c2710e73c52cd0c2fe37f9b'}}, {'NodeID': '5e6d2bde1eab418b3a67f81104dcce7268aa4080afb2e3b966807a00', 'Alive': True, 'NodeManagerAddress': '128.55.82.162', 'NodeManagerHostname': 'nid008357', 'NodeManagerPort': 33025, 'ObjectManagerPort': 36941, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 65444, 'NodeName': '128.55.82.162', 'RuntimeEnvAgentPort': 61878, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'GPU': 4.0, 'node:128.55.82.162': 1.0, 'memory': 179868674048.0, 'object_store_memory': 77086574592.0, 'CPU': 4.0}, 'Labels': {'ray.io/node_id': '5e6d2bde1eab418b3a67f81104dcce7268aa4080afb2e3b966807a00'}}, {'NodeID': 'e8b08ab7ed29a022bad287e13cae5cf05837de993ec73f43d233c1fb', 'Alive': True, 'NodeManagerAddress': '128.55.82.138', 'NodeManagerHostname': 'nid008309', 'NodeManagerPort': 39459, 'ObjectManagerPort': 38409, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 60086, 'NodeName': '128.55.82.138', 'RuntimeEnvAgentPort': 64484, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'GPU': 4.0, 'memory': 169485561652.0, 'object_store_memory': 76922383564.0, 'CPU': 5.0, 'node:__internal_head__': 1.0, 'node:128.55.82.138': 1.0}, 'Labels': {'ray.io/node_id': 'e8b08ab7ed29a022bad287e13cae5cf05837de993ec73f43d233c1fb'}}, {'NodeID': '785af6022c11ab1b9d23f37adaaaa86c57430ec82919236d76473138', 'Alive': True, 'NodeManagerAddress': '128.55.82.143', 'NodeManagerHostname': 'nid008320', 'NodeManagerPort': 37741, 'ObjectManagerPort': 40669, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 64264, 'NodeName': '128.55.82.143', 'RuntimeEnvAgentPort': 47785, 'alive': True, 'Resources': {'GPU': 4.0, 'memory': 179757068288.0, 'object_store_memory': 77038743552.0, 'CPU': 4.0, 'accelerator_type:A100': 1.0, 'node:128.55.82.143': 1.0}, 'Labels': {'ray.io/node_id': '785af6022c11ab1b9d23f37adaaaa86c57430ec82919236d76473138'}}, {'NodeID': '419795bc9a09824bd2c7f72c17041458e10ee834f4abb3b0027e6f46', 'Alive': True, 'NodeManagerAddress': '128.55.82.171', 'NodeManagerHostname': 'nid008376', 'NodeManagerPort': 38505, 'ObjectManagerPort': 35181, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 60941, 'NodeName': '128.55.82.171', 'RuntimeEnvAgentPort': 60773, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'memory': 180243778356.0, 'GPU': 4.0, 'node:128.55.82.171': 1.0, 'object_store_memory': 77247333580.0, 'CPU': 4.0}, 'Labels': {'ray.io/node_id': '419795bc9a09824bd2c7f72c17041458e10ee834f4abb3b0027e6f46'}}, {'NodeID': '4395199b25ddcfbbb0950244404b036660bbab520d393576d70747e1', 'Alive': True, 'NodeManagerAddress': '128.55.82.168', 'NodeManagerHostname': 'nid008369', 'NodeManagerPort': 35689, 'ObjectManagerPort': 45525, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 63194, 'NodeName': '128.55.82.168', 'RuntimeEnvAgentPort': 61862, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'GPU': 4.0, 'memory': 180095174247.0, 'node:128.55.82.168': 1.0, 'object_store_memory': 77183646105.0, 'CPU': 4.0}, 'Labels': {'ray.io/node_id': '4395199b25ddcfbbb0950244404b036660bbab520d393576d70747e1'}}, {'NodeID': 'd228f092263b1eb5a56db5f04b5b681579b49e972e7178a2fe1a83b0', 'Alive': True, 'NodeManagerAddress': '128.55.82.139', 'NodeManagerHostname': 'nid008312', 'NodeManagerPort': 41279, 'ObjectManagerPort': 35345, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 59918, 'NodeName': '128.55.82.139', 'RuntimeEnvAgentPort': 51333, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'GPU': 4.0, 'object_store_memory': 76957909401.0, 'memory': 179568455271.0, 'node:128.55.82.139': 1.0, 'CPU': 4.0}, 'Labels': {'ray.io/node_id': 'd228f092263b1eb5a56db5f04b5b681579b49e972e7178a2fe1a83b0'}}, {'NodeID': '9f87468c422d9d952a3401ef7e986093cd2ae7a914e1c43a5e330c98', 'Alive': True, 'NodeManagerAddress': '128.55.82.169', 'NodeManagerHostname': 'nid008372', 'NodeManagerPort': 39349, 'ObjectManagerPort': 46039, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 58119, 'NodeName': '128.55.82.169', 'RuntimeEnvAgentPort': 54906, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'GPU': 4.0, 'node:128.55.82.169': 1.0, 'memory': 179831288628.0, 'object_store_memory': 77070552268.0, 'CPU': 4.0}, 'Labels': {'ray.io/node_id': '9f87468c422d9d952a3401ef7e986093cd2ae7a914e1c43a5e330c98'}}, {'NodeID': 'ccf6a0b2ea4ec56c3f9e73fcda02c18b847b633c5b842845e4ce74dd', 'Alive': True, 'NodeManagerAddress': '128.55.82.147', 'NodeManagerHostname': 'nid008328', 'NodeManagerPort': 36773, 'ObjectManagerPort': 41499, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 46505, 'NodeName': '128.55.82.147', 'RuntimeEnvAgentPort': 42236, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'GPU': 4.0, 'node:128.55.82.147': 1.0, 'memory': 179912688436.0, 'object_store_memory': 77105437900.0, 'CPU': 4.0}, 'Labels': {'ray.io/node_id': 'ccf6a0b2ea4ec56c3f9e73fcda02c18b847b633c5b842845e4ce74dd'}}, {'NodeID': 'd080cc28230555da8dac25a3eec20a05a445c049b96a4f958e0d4307', 'Alive': True, 'NodeManagerAddress': '128.55.82.140', 'NodeManagerHostname': 'nid008313', 'NodeManagerPort': 38039, 'ObjectManagerPort': 46713, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 63596, 'NodeName': '128.55.82.140', 'RuntimeEnvAgentPort': 44844, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'GPU': 4.0, 'memory': 179581420749.0, 'object_store_memory': 76963466035.0, 'node:128.55.82.140': 1.0, 'CPU': 4.0}, 'Labels': {'ray.io/node_id': 'd080cc28230555da8dac25a3eec20a05a445c049b96a4f958e0d4307'}}, {'NodeID': '93727be6a3607c8b1e319c39c3d92aea9a06956d4743b683b5cfd2f1', 'Alive': True, 'NodeManagerAddress': '128.55.82.145', 'NodeManagerHostname': 'nid008324', 'NodeManagerPort': 33243, 'ObjectManagerPort': 36467, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 56493, 'NodeName': '128.55.82.145', 'RuntimeEnvAgentPort': 52280, 'alive': True, 'Resources': {'GPU': 4.0, 'memory': 179497299968.0, 'object_store_memory': 76927414272.0, 'CPU': 4.0, 'accelerator_type:A100': 1.0, 'node:128.55.82.145': 1.0}, 'Labels': {'ray.io/node_id': '93727be6a3607c8b1e319c39c3d92aea9a06956d4743b683b5cfd2f1'}}, {'NodeID': '54c3412c4368ec9748e3e33675567704bc68601b7a713bb1c6fbcf1e', 'Alive': True, 'NodeManagerAddress': '128.55.82.158', 'NodeManagerHostname': 'nid008349', 'NodeManagerPort': 34683, 'ObjectManagerPort': 43369, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 48938, 'NodeName': '128.55.82.158', 'RuntimeEnvAgentPort': 50554, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'node:128.55.82.158': 1.0, 'GPU': 4.0, 'memory': 179413635072.0, 'object_store_memory': 76891557888.0, 'CPU': 4.0}, 'Labels': {'ray.io/node_id': '54c3412c4368ec9748e3e33675567704bc68601b7a713bb1c6fbcf1e'}}, {'NodeID': '3baa432d29139ddf63043e28a29fee2af1bcaa6e5ad61a615469245f', 'Alive': True, 'NodeManagerAddress': '128.55.82.166', 'NodeManagerHostname': 'nid008365', 'NodeManagerPort': 35801, 'ObjectManagerPort': 46697, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 46183, 'NodeName': '128.55.82.166', 'RuntimeEnvAgentPort': 54095, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'memory': 179944726528.0, 'object_store_memory': 77119168512.0, 'GPU': 4.0, 'node:128.55.82.166': 1.0, 'CPU': 4.0}, 'Labels': {'ray.io/node_id': '3baa432d29139ddf63043e28a29fee2af1bcaa6e5ad61a615469245f'}}, {'NodeID': '4e6f64ea94f14cc6416b3dc67ce19df449923fe4cd10a1aea53801b6', 'Alive': True, 'NodeManagerAddress': '128.55.82.142', 'NodeManagerHostname': 'nid008317', 'NodeManagerPort': 45997, 'ObjectManagerPort': 37173, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 61903, 'NodeName': '128.55.82.142', 'RuntimeEnvAgentPort': 64636, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'GPU': 4.0, 'memory': 179562376807.0, 'node:128.55.82.142': 1.0, 'object_store_memory': 76955304345.0, 'CPU': 4.0}, 'Labels': {'ray.io/node_id': '4e6f64ea94f14cc6416b3dc67ce19df449923fe4cd10a1aea53801b6'}}, {'NodeID': '7c64badf83772de6fa0bbe8672eaf15f8be05208ab6c56315881050c', 'Alive': True, 'NodeManagerAddress': '128.55.82.157', 'NodeManagerHostname': 'nid008348', 'NodeManagerPort': 33743, 'ObjectManagerPort': 43219, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 41750, 'NodeName': '128.55.82.157', 'RuntimeEnvAgentPort': 40349, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'GPU': 4.0, 'memory': 180258355200.0, 'node:128.55.82.157': 1.0, 'object_store_memory': 77253580800.0, 'CPU': 4.0}, 'Labels': {'ray.io/node_id': '7c64badf83772de6fa0bbe8672eaf15f8be05208ab6c56315881050c'}}, {'NodeID': '4e5c51a09322455ac7cc1ee599071bec1b0dc7f99985a3589826fa73', 'Alive': True, 'NodeManagerAddress': '128.55.82.148', 'NodeManagerHostname': 'nid008329', 'NodeManagerPort': 40073, 'ObjectManagerPort': 32891, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 60169, 'NodeName': '128.55.82.148', 'RuntimeEnvAgentPort': 63028, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'GPU': 4.0, 'memory': 179497698509.0, 'CPU': 4.0, 'object_store_memory': 76927585075.0, 'node:128.55.82.148': 1.0}, 'Labels': {'ray.io/node_id': '4e5c51a09322455ac7cc1ee599071bec1b0dc7f99985a3589826fa73'}}, {'NodeID': '858993bfda5ad5a70539ec2a9fc59059a8f213c47672fa438ec9a148', 'Alive': True, 'NodeManagerAddress': '128.55.82.170', 'NodeManagerHostname': 'nid008373', 'NodeManagerPort': 35169, 'ObjectManagerPort': 39409, 'ObjectStoreSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2024-02-19_05-48-33_010667_417685/sockets/raylet', 'MetricsExportPort': 49622, 'NodeName': '128.55.82.170', 'RuntimeEnvAgentPort': 60089, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'memory': 179746574336.0, 'GPU': 4.0, 'node:128.55.82.170': 1.0, 'object_store_memory': 77034246144.0, 'CPU': 4.0}, 'Labels': {'ray.io/node_id': '858993bfda5ad5a70539ec2a9fc59059a8f213c47672fa438ec9a148'}}]
+cluster resources:={'accelerator_type:A100': 32.0, 'CPU': 129.0, 'memory': 5742795083582.0, 'node:128.55.82.142': 1.0, 'object_store_memory': 2465483607234.0, 'GPU': 128.0, 'node:128.55.82.147': 1.0, 'node:128.55.82.141': 1.0, 'node:128.55.82.165': 1.0, 'node:128.55.82.145': 1.0, 'node:128.55.82.156': 1.0, 'node:128.55.82.161': 1.0, 'node:128.55.82.143': 1.0, 'node:128.55.82.140': 1.0, 'node:128.55.82.168': 1.0, 'node:128.55.82.152': 1.0, 'node:128.55.82.169': 1.0, 'node:128.55.82.167': 1.0, 'node:128.55.82.148': 1.0, 'node:128.55.82.153': 1.0, 'node:128.55.82.157': 1.0, 'node:128.55.82.164': 1.0, 'node:128.55.82.166': 1.0, 'node:128.55.82.144': 1.0, 'node:128.55.82.146': 1.0, 'node:128.55.82.163': 1.0, 'node:128.55.82.171': 1.0, 'node:128.55.82.170': 1.0, 'node:128.55.82.158': 1.0, 'node:128.55.82.151': 1.0, 'node:128.55.82.149': 1.0, 'node:128.55.82.160': 1.0, 'node:128.55.82.159': 1.0, 'node:128.55.82.139': 1.0, 'node:128.55.82.150': 1.0, 'node:128.55.82.162': 1.0, 'node:__internal_head__': 1.0, 'node:128.55.82.138': 1.0}
+fragment execution time:=1868.6699169349959
+postproc time:=0.4450563940044958
+QAOA expval:=1.3431767026076193e-11 with params:=[[7.20792567e-01 1.02761748e-04]]

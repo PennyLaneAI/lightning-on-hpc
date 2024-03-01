@@ -1,0 +1,10 @@
+Iteration 5: num of nodes: 64 n is 256 and num_qubits is 37
+Iteration 5: num of nodes: 64 is larger than 1
+Iteration 4: num of nodes: 32 n is 128 and num_qubits is 36
+Iteration 4: num of nodes: 32 is larger than 1
+Iteration 3: num of nodes: 16 n is 64 and num_qubits is 35
+Iteration 3: num of nodes: 16 is larger than 1
+Iteration 2: num of nodes: 8 n is 32 and num_qubits is 34
+Iteration 2: num of nodes: 8 is larger than 1
+Iteration 1: num of nodes: 4 n is 16 and num_qubits is 33
+Iteration 1: num of nodes: 4 is larger than 1

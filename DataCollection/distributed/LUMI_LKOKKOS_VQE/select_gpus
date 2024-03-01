@@ -1,0 +1,8 @@
+#!/bin/bash
+
+export ROCR_VISIBLE_DEVICES=$OMPI_COMM_WORLD_LOCAL_RANK
+export MPI4PY_RC_RECV_MPROBE=false
+export OMPI_MCA_pml=ucx
+echo $ROCR_VISIBLE_DEVICES
+exec $*
+

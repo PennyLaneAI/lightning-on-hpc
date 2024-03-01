@@ -1,0 +1,42 @@
+
+Lmod is automatically replacing "PrgEnv-cray/8.4.0" with "PrgEnv-gnu/8.4.0".
+
+
+Lmod is automatically replacing "cce/16.0.1" with "gcc/11.2.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-mpich/8.1.27
+
+
+Lmod is automatically replacing "PrgEnv-cray-amd/8.4.0" with
+"PrgEnv-cray/8.4.0".
+
+
+Lmod is automatically replacing "gcc/11.2.0" with "cce/16.0.1".
+
+
+Lmod is automatically replacing "PrgEnv-gnu/8.4.0" with
+"PrgEnv-cray-amd/8.4.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-mpich/8.1.27
+
+0
+1
+6
+3
+2
+5
+4
+7
+qubits=28,num_terms=8919,procs=8,,Step=0,Time_grad=20188.61789894104
+qubits=28,num_terms=8919,procs=8,,Step=1,Time_grad=19831.999589309096
+qubits=28,num_terms=8919,procs=8,,Step=2,Time_grad=19824.571822844446
+qubits=28,num_terms=8919,procs=8,,Step=3,Time_grad=19823.037466246635
+qubits=28,num_terms=8919,procs=8,,Step=4,Time_grad=19829.425746206194
+qubits=28,num_terms=8919,procs=8,,Step=5,Time_grad=19831.71927189827
+qubits=28,num_terms=8919,procs=8,,Step=6,Time_grad=19840.40221013967
+qubits=28,num_terms=8919,procs=8,,Step=7,Time_grad=19863.93880375568
+slurmstepd: error: *** JOB 5959714 ON nid005325 CANCELLED AT 2024-02-05T05:47:27 DUE TO TIME LIMIT ***
