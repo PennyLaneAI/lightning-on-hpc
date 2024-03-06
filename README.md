@@ -1,6 +1,6 @@
 # Hybrid quantum programming with PennyLane Lightning on HPC platforms
 
-This repository serves accompanying data and documentation for the manuscript "Hybrid quantum programming with PennyLane Lightning on HPC platforms".
+This repository serves accompanying data and documentation for the manuscript ["Hybrid quantum programming with PennyLane Lightning on HPC platforms"](https://arxiv.org/abs/2403.02512)
 
 The structures of this repository is as follows:
 
