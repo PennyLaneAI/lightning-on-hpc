@@ -42,6 +42,10 @@ DataCollection/
 |  ├─ GateKernels_LQUBIT/
 |  |  | # Targeted kernel evaluation for LM, AVX2 and AVX512 implementations, with 
 |  |  | # comparisons against other HPC-focused simulators.
+|  ├─ VQE/
+|  |  | # Comparison of Lightning suite across CPU (Lightning-Qubit, Lightning-Kokkos+OpenMP on AMD 3rd gen. Epyc)
+|  |  | # and GPU (Lightning-GPU and Lightning-Kokkos+CUDA on NVIDIA A100) backends, using
+|  |  | # VQE and a range of molecules from PennyLane's datasets.
 ```
 
 The included `requirements.txt` contains all used dependencies for running the attached notebooks and plotting scripts. 
