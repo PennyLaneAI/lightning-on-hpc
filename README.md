@@ -24,7 +24,7 @@ DataCollection/
 |  |  |    # running on 16 - 512 NVIDIA A100 (80GB) GPUs on Perlmutter, using 
 |  |  |    # Lightning-GPU, Cray-MPICH 8.1.25, mpi4py and CUDA 11.7.
 |  |  |
-|  ├─ Perlmutter_LGPU_MPI/
+|  ├─ Perlmutter_LGPU_QAOA/
 |  |  |  # All materials related to task-based circuit cutting Lightning-GPU workloads.
 |  |  ├─ QAOA_QCUT_BATCHED_CUDA12/
 |  |  |    # Data and scripts for the 79-qubit circuit cutting workload, with 40k+ 
