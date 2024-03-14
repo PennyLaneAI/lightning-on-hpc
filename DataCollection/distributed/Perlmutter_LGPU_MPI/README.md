@@ -68,7 +68,7 @@ CXX=$(which CC) PL_BACKEND="lightning_gpu" CMAKE_ARGS="-DENABLE_MPI=on -DCMAKE_C
 
 # Ensure the CRAY library paths are used for the MPI enviroment to be visible by the NVIDIA cuQuantum libraries
 # https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00113984en_us&page=Modify_Linking_Behavior_to_Use_Non-default_Libraries.html
-export LD_LIBRARY_PATH=$CRAY_LD_LIBRARY_PATH:LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=$CRAY_LD_LIBRARY_PATH:$LD_LIBRARY_PATH
 
 # Follow NERSCs recommendations for using GPU-aware MPI
 # https://docs.nersc.gov/development/languages/python/using-python-perlmutter/#using-mpi4py-with-gpu-aware-cray-mpich
