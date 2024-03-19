@@ -21,7 +21,7 @@ Finally, we built and installed both LightningQubit and LightningKokkos+ROCm as:
 git clone https://github.com/PennyLaneAI/pennylane-lightning/
 cd pennylane-lightning
 git checkout update/pickle_bindings
-python -m pip install cmake ninja
+python -m pip install cmake ninja pennylane==0.34.0
 PL_BACKEND="lightning_qubit" python -m pip install . --verbose
 CXX="hipcc --gcc-toolchain=/opt/cray/pe/gcc/11.2.0/snos" CMAKE_ARGS="-DKokkos_ENABLE_HIP=ON -DKokkos_ARCH_VEGA90A=ON  -DCMAKE_CXX_FLAGS='--gcc-toolchain=/opt/cray/pe/gcc/11.2.0/snos/'" PL_BACKEND="lightning_kokkos" python -m pip install . --verbose
 ```
