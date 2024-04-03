@@ -29,7 +29,7 @@ packaging==23.2
 -e git+ssh://git@github.com/PennyLaneAI/pennylane.git@f7bba2b8a21319309b21250073492573f5ee967a#egg=PennyLane
 PennyLane-Lightning==0.35.0.dev15
 -e git+ssh://git@github.com/PennyLaneAI/pennylane-lightning.git@102d848cc4232afb181eed33c753efd4093467fb#egg=PennyLane_Lightning_GPU
-pillow==10.2.0
+pillow==10.3.0
 protobuf==4.25.3
 pyparsing==3.1.1
 python-dateutil==2.8.2
